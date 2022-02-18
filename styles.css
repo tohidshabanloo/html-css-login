@@ -1,145 +1,142 @@
-body{
-    background-color: #4682b4;
-    font-family: 'Roboto', sans-serif;
+body {
+  background-color: #4682b4;
+  font-family: "Roboto", sans-serif;
 }
 .header {
-    background-color: #010101;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 14px;
+  background-color: #010101;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
 }
-*{
-    margin:0px;
+* {
+  margin: 0px;
 }
-button, p {
-color: white;
+button,
+p {
+  color: white;
 }
-.header-text{
-    font-weight: bold;
-    cursor: pointer;
+.header-text {
+  font-weight: bold;
+  cursor: pointer;
 }
-.header-subtext{
-    font-size: 10px;
-    cursor: pointer;
-    color: #ccc;
-    margin-top: 6px;
-    display: inline-block;
+.header-subtext {
+  font-size: 10px;
+  cursor: pointer;
+  color: #ccc;
+  margin-top: 6px;
+  display: inline-block;
 }
-.logo-section button{
-    background-color: rgb(91, 136, 0);
-    color:black;
-    border:none;
-    border-radius: 4px;
+.logo-section button {
+  background-color: rgb(91, 136, 0);
+  color: black;
+  border: none;
+  border-radius: 4px;
 }
-.logo-section button:hover{
-    background-color: white;
-    cursor: pointer;
+.logo-section button:hover {
+  background-color: white;
+  cursor: pointer;
+}
 
+.header-subtext:hover {
+  color: white;
+  transition: all 0.3s;
 }
-
-.header-subtext:hover{
-    color: white;
-    transition: all .3s;
+.gray-button {
+  background-color: rgb(109, 109, 109);
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
 }
-.gray-button{
-    background-color: rgb(109, 109, 109);
-    cursor: pointer;
-    border: none;
-    padding:  10px;
-    border-radius:4px
-    
+.gray-button:hover {
+  background-color: tomato;
+  transition: all 0.3s;
 }
-.gray-button:hover{
-    background-color: tomato;
-    transition: all .3s;
+.signup-button {
+  background-color: rgb(91, 136, 0);
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: black;
 }
-.signup-button{
-    background-color: rgb(91, 136, 0);
-    cursor: pointer;
-    border:none;
-    padding:  10px;
-    border-radius: 4px;
-    color: black;
-
+.signup-button:hover {
+  background-color: greenyellow;
+  color: black;
+  transition: all 0.3s;
 }
-.signup-button:hover{
-    background-color: greenyellow;
-    color: black;
-    transition: all .3s;
+.form {
+  background-color: rgb(0, 0, 0, 0.4);
+  width: 40%;
+  margin: auto;
+  margin-top: 10%;
+  padding: 40px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
 }
-.form{
-    background-color: rgb(0, 0, 0, 0.4);
-    width: 40%;
-    margin:auto;
-    margin-top: 10%;
-    padding: 40px 20px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-
+.form button:hover {
+  background-color: rgb(30, 220, 254);
 }
-.form button:hover{
-    background-color: rgb(30, 220, 254);
+.form h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
 }
-.form h2{
-    color: white;
-    text-align: center;
-    margin-bottom: 40px;
+.form input {
+  margin-bottom: 40px;
+  padding: 10px 10px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  background: none;
+  padding-bottom: 4px;
+  color: white;
 }
-.form input{
-    margin-bottom: 40px;
-    padding: 10px 10px;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid white;
-    background: none;
-    padding-bottom: 4px;
-    color: white;
-    
+.form button {
+  margin-bottom: 40px;
+  background: rgba(72, 218, 244);
+  border: none;
+  padding: 15px;
+  color: black;
+  border-radius: 4px;
 }
-.form button{
-    margin-bottom: 40px;
-    background: rgba(72, 218, 244);
-    border:none;
-    padding:15px;
-    color: black;
-    border-radius: 4px;
+::placeholder {
+  color: white;
+  font-weight: bold;
+  opacity: 0.2;
 }
-::placeholder{
-    color:white;
-    font-weight: bold;
-    opacity: 0.2;
-    
+.form a {
+  text-decoration: none;
+  color: rgba(72, 218, 244, 0.797);
 }
-.form a{
-    text-decoration: none;
-    color:rgba(72, 218, 244, 0.797);
+.input:focus::placeholder {
+  transform: translateY(-15px);
+  transition: all 0.1s;
 }
-.input:focus::placeholder{
-    transform: translateY(-15px);
-    transition: all 0.1s;
+.footer {
+  background: black;
+  bottom: 0px;
+  color: white;
+  position: fixed;
+  left: 50%;
+  width: 300px;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px 8px 0px 0px;
 }
-.footer{
-    background: black;
-    bottom: 0px;
-    color:white;
-    position: fixed;
-    left:50%;
-    width: 300px;
-    transform:translateX(-50%);
-    text-align:center;
-    padding:8px;
-    border-radius: 8px 8px 0px 0px;
- 
-}
-.logo-section button:hover{
- background-color: greenyellow;
+.footer a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(0, 255, 255);rgba(72, 218, 244, 0.797);
+.logo-section button:hover {
+  background-color: greenyellow;
 }
 
 @media only screen and (max-width: 600px) {
-    .logo-section button {
-        display:none;
-    }
-    
+  .logo-section button {
+    display: none;
+  }
 }
