@@ -1,0 +1,57 @@
+body{
+    background-color: #4682b4;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #010101;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
+*{
+    margin:0px;
+}
+button, p {
+color: white;
+}
+.header-text{
+    font-weight: bold;
+    cursor: pointer;
+}
+.header-subtext{
+    font-size: 10px;
+    cursor: pointer;
+    color: #ccc;
+    margin-top: 6px;
+}
+.header-subtext:hover{
+    color: white;
+    transition: all .3s;
+}
+.gray-button{
+    background-color: rgb(109, 109, 109);
+    cursor: pointer;
+    border: none;
+    padding:  10px;
+    border-radius:4px
+    
+}
+.gray-button:hover{
+    background-color: tomato;
+    transition: all .3s;
+}
+.signup-button{
+    background-color: rgb(91, 136, 0);
+    cursor: pointer;
+    border:none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: black;
+
+}
+.signup-button:hover{
+    background-color: rgb(143, 215, 1);
+    color: white;
+    transition: all .3s;
+}
